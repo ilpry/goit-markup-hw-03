@@ -68,6 +68,7 @@ body {
 }
 
 /* HERO */
+
 .hero {
   background-color: var(--navy-blue);
 }
@@ -114,6 +115,7 @@ body {
 }
 
 /* FEATURE */
+
 .hidden {
   display: none;
 }
@@ -126,6 +128,7 @@ body {
 }
 
 /* WHAT WE DO */
+
 .section > .title {
   font-size: 36px;
   font-weight: 700;
@@ -137,6 +140,7 @@ body {
 }
 
 /* OUR TEAM   */
+
 .team-section {
   background-color: var(--cloud);
   font-size: 36px;
@@ -165,6 +169,7 @@ body {
 /* PORTFOLIO */
 
 /* FOOTER */
+
 .footer {
   background-color: var(--navy-blue);
 }
