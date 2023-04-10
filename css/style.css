@@ -81,9 +81,6 @@ button {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-
-  outline: 2px solid red;
-  outline-offset: -2px;
 }
 
 .list {
@@ -191,8 +188,6 @@ button {
 }
 
 .hero-container {
-  padding-top: 188px;
-  padding-bottom: 188px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -258,6 +253,16 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  padding-bottom: 8px;
+}
+
+.feature .text {
+  font-size: 16px;
+}
+
+.feature {
+  display: flex;
+  gap: 24px;
 }
 
 /**
@@ -266,7 +271,7 @@ button {
   |============================
 */
 
-.section > .title {
+.we-are-container > .title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -274,6 +279,16 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
+  padding-bottom: 72px;
+}
+
+.we-are-container .list {
+  display: flex;
+  gap: 24px;
+}
+
+.we-are-img {
+  width: calc((100% - (var(--indent) * 2)) / 3);
 }
 
 /**
@@ -300,7 +315,7 @@ button {
 }
 .team-item {
   background-color: var(--white);
-  width: calc((100% - (var(--indent) * 3 )) / 4);
+  width: calc((100% - (var(--indent) * 3)) / 4);
 }
 
 .card-content {
@@ -341,6 +356,18 @@ button {
   background-color: var(--navy-blue);
 }
 
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  gap: 16px;
+}
+
+.footer-container p {
+  width: 264px;
+}
+
 .footer-logo {
   color: var(--cloud);
 }
@@ -370,4 +397,49 @@ button {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+/**
+  |============================
+  | Portfolio
+  |============================
+*/
+
+.portfolio-img-container {
+}
+
+.button-portfolio {
+  min-width: 69px;
+  height: 48px;
+  border: 1px solid transparent;
+  padding: 12px 24px;
+}
+
+.button-list {
+  display: flex;
+  justify-content: center;
+  gap: var(--indent);
+  padding-bottom: 72px;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--indent);
+}
+
+.card {
+  border: 1px solid var(--cornflower);
+  width: calc((100% - (var(--indent) * 2)) / 3);
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 16px;
+  gap: 8px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
