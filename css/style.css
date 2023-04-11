@@ -190,6 +190,8 @@ button {
 
 .hero {
   background-color: var(--navy-blue);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-container {
@@ -207,7 +209,7 @@ button {
   letter-spacing: 0.02em;
   color: var(--white);
   height: 120px;
-  width: 496px;
+  max-width: 496px
 }
 .button {
   font-family: inherit;
