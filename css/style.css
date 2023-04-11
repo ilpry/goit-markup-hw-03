@@ -399,12 +399,13 @@ button {
   color: var(--iris);
   margin-bottom: 16px;
 }
+
 .footer .text {
   color: var(--cloud);
 }
 
 .visually-hidden {
-  position: absolute;
+
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -448,8 +449,10 @@ button {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--indent);
+  gap: 24px;
+  row-gap: 48px;
 }
+
 
 .card {
   border: 1px solid var(--cornflower);
@@ -464,6 +467,7 @@ button {
   padding: 32px 16px;
   gap: 8px;
   border: 1px solid var(--cornflower);
+  border-top: none;
 }
 
 .card-container .title {
