@@ -436,9 +436,6 @@ button {
   margin-bottom: 72px;
 }
 
-.button-list-item {
-  margin-right: 24px;
-}
 .button-list-item:not(:last-child) {
   margin-right: 24px;
 }
