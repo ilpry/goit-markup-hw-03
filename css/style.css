@@ -384,7 +384,7 @@ button {
   width: 264px;
 }
 
-.footer-container .logo {
+.web-studio-link {
   display: inline-block;
 }
 
@@ -392,7 +392,7 @@ button {
   color: var(--cloud);
 }
 .footer .logo {
-  
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
