@@ -374,18 +374,8 @@ button {
   padding-bottom: 100px;
 }
 
-.footer-container {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
 .footer-container p {
-  width: 264px;
-}
-
-.web-studio-link {
-  display: inline-block;
+  max-width: 264px;
 }
 
 .footer-logo {
