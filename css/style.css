@@ -384,11 +384,15 @@ button {
   width: 264px;
 }
 
+.footer-container .logo {
+  display: inline-block;
+}
+
 .footer-logo {
   color: var(--cloud);
 }
 .footer .logo {
-  display: inline-block;
+  
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
