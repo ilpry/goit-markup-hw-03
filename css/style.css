@@ -229,6 +229,7 @@ button {
   height: 56px;
   border: 1px solid transparent;
   line-height: 1.5;
+  border: none;
   background-color: var(--iris);
   color: var(--white);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
